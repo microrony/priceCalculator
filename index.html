@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sytle.css">
+  <title>Price Calculator</title>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="box">
+      <h2>Price Calculator</h2>
+  
+      <form>
+        <div class="form-group">
+          <label for="price">Price</label>
+          <input type="text" name="price" value="5" id="price">
+        </div>
+  
+        <div class="form-group">
+          <label for="quantity">Quantity
+            <span class="sub-label">1</span>
+          </label>
+          <input type="range" name="quantity" value="1" id="quantity" min="1" max="100" step="1">
+        </div>
+    </form>
+
+    <div class="total-cost">
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
